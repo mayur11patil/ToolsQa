@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ToolsQa]">
+  <test thread-count="5" name="TestAddToCart(failed)">
+    <classes>
+      <class name="com.atmecs.toolsqa.testscripts.TestAddToCart">
+        <methods>
+          <include name="preSetup"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.atmecs.toolsqa.testscripts.TestAddToCart -->
+    </classes>
+  </test> <!-- TestAddToCart(failed) -->
+  <test thread-count="5" name="TestsearchProduct(failed)">
+    <classes>
+      <class name="com.atmecs.toolsqa.testscripts.TestSearchProductAndAddTocart">
+        <methods>
+          <include name="TestSearchProductToAddToCart"/>
+          <include name="preSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.toolsqa.testscripts.TestSearchProductAndAddTocart -->
+    </classes>
+  </test> <!-- TestsearchProduct(failed) -->
+</suite> <!-- Failed suite [ToolsQa] -->
